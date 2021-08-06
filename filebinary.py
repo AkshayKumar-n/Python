@@ -1,0 +1,6 @@
+file = open("b.txt","w+b")
+test = bytearray([12,35,84,74])
+file.write(test)
+file = open("b.txt","r")
+file.read()
+file.close()
